@@ -28,7 +28,7 @@ This system recommends movies based on user behavior, identifying similar users 
 I built an **Item-Based Collaborative Filtering (IBCF)** system, trained on **80% of the data** and tested on the remaining 20%. The system recommends movies based on the top **30 most similar items**.
 
 ### 8. Recommendation Model
-The model generates **top 10 movie recommendations** for each user, ranking items based on similarity and user preferences.
+After building the collaborative filtering system, I configured the model to recommend movies to users based on the top 30 similar items. Using the getModel() function, I retrieved the details of the recommendation model, including the similarity matrix that highlights how similar certain movies are to each other.
 
 ### 9. Conclusion
 This project demonstrated how machine learning and collaborative filtering can create a movie recommendation system, giving me valuable insights into R, data science, and real-world application of machine learning models.
